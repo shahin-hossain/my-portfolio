@@ -25,7 +25,7 @@ h2 {
 
 .head-container {
     display: flex;
-    background-image: url(../Images/developer.png);
+    background-image: url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 80px;
