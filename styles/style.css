@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+
+.name-head {
+    margin-bottom: 150px;
+    margin-top: 20px;
+}
+
+.theme-color {
+    color: #FD6E0A;
+}
+
+.head-container {
+    display: flex;
+    background-image: url(../Images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 80px;
+    margin-bottom: 200px;
+}
+
+.half-sec {
+    width: 50%;
+}
+
+.half-sec img {
+    width: 100%;
+}
+
+.half-sec h2 {
+    margin-bottom: 50px;
+}
+
+.bio-sec {
+    margin-left: 150px;
+    text-align: justify;
+
+}
+
+.cv-btn {
+
+    text-decoration: none;
+    font-weight: 700;
+    padding: 20px 40px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+.cv-btn::before {
+    content: '\f019';
+    font-family: 'font awesome 6 free';
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+
+
+
+/*
+  -------------nav section--------
+*/
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 16px;
+
+    color: rgb(51, 50, 50);
+
+}
+
+#hire-btn {
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 18px;
+
+}
+
+/*--------------
+Head Section end
+----------------*/
+h3 {
+    font-size: 25px;
+    color: rgb(76, 75, 75);
+}
+
+h4 {
+    font-size: 20px;
+    color: rgb(107, 106, 106);
+}
+
+p {
+    color: rgb(107, 106, 106);
+}
+
+.about-sec {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.about-info {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech-skill {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.tech-skill h2 {
+    text-align: center;
+}
+
+.skills-list {
+    margin-top: 100px;
+    display: flex;
+    color: rgb(43, 42, 42);
+
+}
+
+.skills-list h3 {
+    color: rgb(36, 35, 35);
+}
+
+.flex-gap>* {
+    padding: 0 20px;
+    margin: 15px 0px;
+}
+
+/*-------------------
+Education Section start
+----------------------*/
+.summery-sec {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.summery-sec h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: rgb(36, 35, 35)
+}
+
+.edu-exp {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.my-education {
+    margin: 0px 20px;
+}
+
+.educatoin-list {
+    border-bottom: 1px solid rgb(124, 120, 120);
+    padding: 20px 0px;
+}
+
+.educatoin-list>* {
+    padding: 5px 0px;
+}
+
+.cv-btn-2 {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.cv-btn-2 a {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 20px 40px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.cv-btn-2 a::before {
+    content: '\f019';
+    font-family: 'font awesome 6 free';
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.footer-sec {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+}
+
+.icon {
+    font-size: 20px;
+    color: #FD6E0A
+}
+
+.connect-sec {
+    width: 50%;
+    padding: 0px 50px;
+}
+
+.connect-sec>* {
+    margin-top: 20px;
+
+}
+
+.msg-sec {
+    width: 50%;
+    padding: 0px 50px;
+
+}
+
+.msg-sec>* {
+    margin-top: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+}
+
+input[type=email] {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+
+.input-items>* {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+input[type=button] {
+    background-color: #FD6E0A;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-sec {
+
+    display: flex;
+    justify-content: center;
+}
